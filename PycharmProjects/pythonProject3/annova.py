@@ -5,7 +5,7 @@ from ttest import p_value
 
 region1=[130,130,125,140,135,128,132]
 region2=[150,160,158,162,155,149,157]
-region3=[170,175,172,180,178,176,174]
+region3=[180,175,172,180,178,176,174]
 
 f_stat,p_value =stats.f_oneway(region1,region2,region3)
 
