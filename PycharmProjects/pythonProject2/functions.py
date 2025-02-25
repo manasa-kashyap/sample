@@ -1,5 +1,5 @@
 class student:
-    x=30
+    x=300
     def f1(self,name,age,loc):
         print(name)
         print(age)
