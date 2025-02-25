@@ -2,7 +2,7 @@ import numpy as np
 from scipy import stats
 # sample data
 class1_scores=[76,82,85,90,880,78,100]
-class2_scores=[88,91,95,89,92,95,900]
+class2_scores=[88,91,95,90,92,95,900]
 # perform independent t-test
 t_stat, p_value=stats.ttest_ind(class1_scores,class2_scores)
 
