@@ -3,7 +3,7 @@ class doctor:
         print('x=',x)
         print('y=',y)
 d=doctor()
-d.do_surgery(20,60)
+d.do_surgery(20,80)
 
 class developer:
     def __init__(self,number,name,designation):
