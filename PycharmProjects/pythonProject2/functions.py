@@ -1,6 +1,6 @@
 class student:
 
-    x=500
+    x=600
 
 
     def f1(self,name,age,loc):
